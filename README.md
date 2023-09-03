@@ -12,6 +12,9 @@ Cloud-native photo app that interacts with AWS S3 and RDS to display data and al
 - Hosting: AWS EC2 (Elastic Compute) Elastic Beanstalk
 
 Features 
+Server: 
 - Download and open files from AWS S3
 - Upload files to S3 and write user and photo information to RDS
 - Query RDS for information such as: # and names of files in S3 bucket, # and names of users/assets
+Client:
+- Python client that prompts user to take any of the above actions
